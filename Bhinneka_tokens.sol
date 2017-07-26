@@ -26,7 +26,7 @@ contract BNKToken is VestedToken {
   uint private constant DECIMALS = 10000;
 
   //Prices of BNK
-  uint public constant PRICE_STANDARD    = 900*DECIMALS; // BNK received per one ETH; MAX_SUPPLY / (valuation / ethPrice)
+  uint public constant PRICE_STANDARD    = 9000*DECIMALS; // BNK received per one ETH; MAX_SUPPLY / (valuation / ethPrice)
   uint public constant PRICE_STAGE_ONE   = PRICE_STANDARD * 130/100; // 1ETH = 30% more BNK
   uint public constant PRICE_STAGE_TWO   = PRICE_STANDARD * 115/100; // 1ETH = 15% more BNK
   uint public constant PRICE_STAGE_THREE = PRICE_STANDARD;
