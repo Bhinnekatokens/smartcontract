@@ -28,7 +28,7 @@ contract SafeMath {
 }
 
 
-contract BhinnekaToken is SafeMath {
+contract EdgelessToken is SafeMath {
     /* Public variables of the token */
     string public standard = 'ERC20';
     string public name = 'BHINNEKA';
@@ -49,10 +49,10 @@ contract BhinnekaToken is SafeMath {
 	event Burned(uint amount);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function BhinnekaToken(address _owner) {
+    function EdgelessToken(address _owner) {
         // Owner is the crowdsale contract
         owner = 0x7D98fa238C3bBF0f2BCD1bcE19eFA028474B4E07;
-        balanceOf[owner] = 6000000;              // Give the owner all initial tokens
+        balanceOf[owner] = 26000000;              // Premine all tokens for airdrop, Bounty and donation
         totalSupply = 26000000;                   // Update total supply
     }
 
@@ -67,6 +67,7 @@ contract BhinnekaToken is SafeMath {
         Approval(msg.sender, _spender, _value);
         return true;
     }
+
 
 
 }
