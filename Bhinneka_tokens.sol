@@ -32,9 +32,9 @@ contract BNKToken is VestedToken {
   uint public constant PRICE_STAGE_THREE = PRICE_STANDARD;
 
   //BNK Token Limits
-  uint public constant ALLOC_TEAM =         16000000*DECIMALS; // team + advisors
-  uint public constant ALLOC_BOUNTIES =      4000000*DECIMALS;
-  uint public constant ALLOC_CROWDSALE =    80000000*DECIMALS;
+  uint public constant ALLOC_TEAM =          1000000*DECIMALS; // team + advisors
+  uint public constant ALLOC_BOUNTIES =       500000*DECIMALS;
+  uint public constant ALLOC_CROWDSALE =    98500000*DECIMALS;
   
   //ASSIGNED IN INITIALIZATION
   //Start and end times
