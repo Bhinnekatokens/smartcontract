@@ -18,41 +18,20 @@ contract BNKToken is VestedToken {
 
   //CONSTANTS
   //Time limits
-  uint public constant STAGE_ONE_TIME_END = 48 hours; // first day bonus
-  uint public constant STAGE_TWO_TIME_END = 2 weeks; // first week bonus
-  uint public constant STAGE_THREE_TIME_END = 2 weeks;
+  uint public constant STAGE_ONE_TIME_END = 4 weeks;
+
   
   // Multiplier for the decimals
   uint private constant DECIMALS = 10000;
 
   //Prices of BNK
   uint public constant PRICE_STANDARD    = 9000*DECIMALS; // BNK received per one ETH; MAX_SUPPLY / (valuation / ethPrice)
-  uint public constant PRICE_STAGE_ONE   = PRICE_STANDARD * 130/100; // 1ETH = 30% more BNK
-  uint public constant PRICE_STAGE_TWO   = PRICE_STANDARD * 115/100; // 1ETH = 15% more BNK
-  uint public constant PRICE_STAGE_THREE = PRICE_STANDARD;
 
   //BNK Token Limits
   uint public constant ALLOC_TEAM =          1000000*DECIMALS; // team + advisors
-  uint public constant ALLOC_BOUNTIES =       500000*DECIMALS;
-  uint public constant ALLOC_CROWDSALE =    98500000*DECIMALS;
+  uint public constant ALLOC_BOUNTIES =      2000000*DECIMALS;
+  uint public constant ALLOC_CROWDSALE =    23000000*DECIMALS;
   
-  //ASSIGNED IN INITIALIZATION
-  //Start and end times
-  uint public publicStartTime; // Time in seconds public crowd fund starts.
-  uint public privateStartTime; // Time in seconds when pre-buy can purchase up to 31250 ETH worth of BNK;
-  uint public publicEndTime; // Time in seconds crowdsale ends
-  uint public hardcapInEth;
-
-  //Special Addresses
-  address public multisigAddress; // Address to which all ether flows.
-  address public BhinnekaTeamAddress; // Address to which ALLOC_TEAM, ALLOC_BOUNTIES, (ultimately) sent to.
-  address public ownerAddress; // Address of the contract owner. Can halt the crowdsale.
-  address public preBuy1; // Address used by pre-buy
-  address public preBuy2; // Address used by pre-buy
-  address public preBuy3; // Address used by pre-buy
-  uint public preBuyPrice1; // price for pre-buy
-  uint public preBuyPrice2; // price for pre-buy
-  uint public preBuyPrice3; // price for pre-buy
 
   //Running totals
   uint public etherRaised; // Total Ether raised.
