@@ -1,19 +1,19 @@
-<a width="280" href=https://github.com/Bhinnekatokens/smartcontract target="_blank" hight="300"><img border="0" alt="BHINNEKA" src="hhttps://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/940px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png"/></a>
+<a wsrc="hhttps://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/940px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png"/></a>
 
 
-<Strong> All sources is open </ strong> </ br> </ br>
+<Strong> All sources is open </strong> </br> </br>
 
-Token name: Bhinneka Tokens </ br>
-Max Supply: 26.000.000 Tokens </ br> </ br>
-Allocation </ br>
-Team & Developer 1,000,000 Tokens </ br>
-Bounty 2.000.000 Tokens </ br>
-Airdrop 23.000.000 Tokens for 3 years with monthly distribution system </ br>
-Donate 1 eth to 9000 BNK </ br>
+Token name: Bhinneka Tokens </br>
+Max Supply: 26.000.000 Tokens </br> </br>
+Allocation </br>
+Team & Developer 1,000,000 Tokens </br>
+Bounty 2.000.000 Tokens </br>
+Airdrop 23.000.000 Tokens for 3 years with monthly distribution system </br>
+Donate 1 eth to 9000 BNK </br>
 Donate 1 Bitcoin to 150,000 BNK
-</ Br> </ br>
-Network: Blockchain Ethereum </ br>
-</ Br>
+</Br> </br>
+Network: Blockchain Ethereum </br>
+</Br>
 
 Bhinneka tokens unites humans using blockchain networks</br></br></br></br>
 
