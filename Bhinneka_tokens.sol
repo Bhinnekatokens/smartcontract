@@ -67,7 +67,4 @@ contract EdgelessToken is SafeMath {
         Approval(msg.sender, _spender, _value);
         return true;
     }
-
-
-
 }
